@@ -30,20 +30,90 @@ li {
 
 .body-1 {
     display: flex;
+    justify-content: space-between;
+}
+
+.body-1-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.body-1-header {
+
+}
+
+.body-1-text {
+
+}
+
+.body-1-button {
+   
+}
+
+.body-1-image {
+    width: 600px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .body-2 {
     display: flex;
     flex-direction: column;
+    align-items: center;
+}
+
+.body-2-cards {
+    display: flex;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-image {
+    width: 50px;
+    height: 50px;
+    border: 2px;
+    border-color: blue;
+    border-radius: 75%;
+}
+
+.card-text {
+
 }
 
 .body-3 {
     display: flex;
     flex-direction: column;
+    align-items: end;
+}
+
+.body-3-quote {
+
+}
+
+.body-3-attribute {
+    
 }
 
 .body-4 {
     display: flex;
+    justify-content: space-between;
+}
+
+.body-4-header {
+
+}
+
+.body-4-text {
+
+}
+
+.body-4-button {
+
 }
 
 .footer {
