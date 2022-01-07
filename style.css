@@ -1,13 +1,22 @@
 body {
     display: flex;
     flex-direction: column;
-    font: roboto;
-    font-family: sans-serif;
+    font-family: "Roboto", sans-serif;
+    height: 100vh;
+    width: 100vw;
+    margin: 0 auto;
 }
 
 .header {
+
+}
+
+.header-container {
     display: flex;
     justify-content: space-between;
+    width: 70vw;
+    height: 15vh;
+    margin: 0 auto 24px auto;
 }
 
 .header-logo {
@@ -35,13 +44,20 @@ li {
 }
 
 .body-1 {
+
+}
+
+.body-1-container {
     display: flex;
     justify-content: space-between;
+    width: 70vw;
+    margin: 24px auto;
 }
 
 .body-1-left {
     display: flex;
     flex-direction: column;
+    margin: 24px 24px 24px 0px;
 }
 
 .body-1-header {
@@ -58,28 +74,41 @@ li {
 .body-1-button {
    background-color: #3882F6;
    color: #E5E7EB;
+   height: auto;
+   width: 6em;
+   flex: 0 0 0%;
+   border: none;
+   border-radius: 4px;
 }
 
 .body-1-image {
-    width: 600px;
-    height: 300px;
+    width: 500px;
+    height: 250px;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: gray;
     color: #E5E7EB;
+    flex: 0 0 auto;
 }
 
 .body-2 {
+
+}
+
+.body-2-container {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 70vw;
+    margin: 24px auto;
 }
 
 .body-2-header {
     color: #1F2937;
     font-size: 36px;
     font-weight: 900;
+    margin: 12px auto;
 }
 
 .body-2-cards {
@@ -89,29 +118,40 @@ li {
 .card {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    margin: 12px 12px;
+
 }
 
 .card-image {
-    width: 50px;
-    height: 50px;
-    border: 2px;
-    border-color: #3882F6;
-    border-radius: 75%;
+    width: 100px;
+    height: 100px;
+    border: 2px solid #3882F6;
+    border-radius: 8px;
 }
 
 .card-text {
-
+    text-align: center;
+    font-size: 12px;
+    font-weight: 300;
 }
 
 .body-3 {
+
+    background-color: #E5E7EB;
+}
+
+.body-3-container {
     display: flex;
     flex-direction: column;
+    width: 70vw;
     align-items: end;
-    background-color: #E5E7EB;
+    margin: 24px auto;
 }
 
 .body-3-quote {
     font-style: italic;
+    font-weight: 100;
     font-size: 36px;
     color: #1F2937;
 }
@@ -122,9 +162,14 @@ li {
 }
 
 .body-4 {
+    background-color: #3882F6;
+}
+
+.body-4-container {
     display: flex;
     justify-content: space-between;
-    background-color: #3882F6;
+    width: 70vw;
+    margin: 24px auto;
 }
 
 .body-4-header {
@@ -139,8 +184,11 @@ li {
 }
 
 .body-4-button {
-    color: #E5E7EB;
     background-color: #3882F6;
+    color: #E5E7EB;
+    width: 7em;
+    border-color: #F9FAF8;
+    border-radius: 4px;
 }
 
 .footer {
@@ -148,6 +196,9 @@ li {
     align-items: center;
     justify-content: center;
     color: #F9FAF8;
+}
+.footer-container {
+    margin: 24px auto;
 }
 
 .blue-background {
